@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  color: #111111;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  background-color: #f4d04e;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.blog-preview-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  padding: 1.5rem;
+
+  background-color: #fff;
+  border-radius: 1.25rem;
+  border: 1px solid #111111;
+  box-shadow: 0.5rem 0.5rem #000;
+
+  gap: 1.5rem;
+}
+
+.preview-image {
+  border-radius: 0.625rem;
+  width: 100%;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.tag {
+  background-color: #f4d04e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.published {
+  font-size: 0.75rem;
+}
+
+.description {
+  color: #6b6b6b;
+  font-size: 1rem;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.author-info > img {
+  max-width: 2rem;
+}
+
+@media screen and (min-width: 28rem) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .tag,
+  .published {
+    font-size: 0.875rem;
+  }
+  .description {
+    font-size: 0.875;
+  }
+}
