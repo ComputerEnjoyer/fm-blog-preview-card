@@ -21,6 +21,10 @@ h2 {
   font-weight: 800;
 }
 
+h2:hover {
+  color: #f4d04e;
+}
+
 .blog-preview-card {
   display: flex;
   flex-direction: column;
